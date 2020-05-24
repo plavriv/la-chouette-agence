@@ -12,7 +12,14 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+blockquote p{
+    margin: 0;
+    font-size: 1.3em;
+}
+blockquote cite{
+    font-size: 1.33em;
+    color: #aa5d00;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -315,6 +322,7 @@ a:hover {
     margin: 0;
 }
 
+
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
@@ -325,7 +333,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -339,7 +347,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+  border: 0px;
 }
 
 .navbar-toggle:hover {
@@ -361,6 +369,31 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+
+
+
+/*
+h3.text-center {
+    font-size: 1.5em;
+}
+
+.text-center h2{
+    font-family: cursive;
+    font-size: 2em;
+    color: #f5a02a!important;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;   
+}
+
+*/
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -677,7 +710,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 0.8em;
 }
 
 .tight-width-whitespace {
@@ -775,7 +808,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
